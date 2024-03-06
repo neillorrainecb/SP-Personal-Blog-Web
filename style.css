@@ -243,3 +243,78 @@ header{
 .edu-box img{
     margin: auto;
 }
+
+/* Education */
+.timeline{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: var(--color-white);
+    margin-bottom: 50px;
+}
+
+.educ-container{
+    margin: 0 20px 20px 20px;
+}
+
+.date{
+    color: var(--color-dark-navy);
+}
+
+.date-right{
+    text-align: right;
+}
+
+.date-left{
+    text-align: left;
+}
+
+.middle-line{
+    position: relative;
+    background: var(--color-black);
+}
+
+.middle-point{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: var(--color-black);
+    border-radius: 50%;
+}
+
+.middle-point-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: var(--color-black);
+    border-radius: 50%;
+}
+
+.educ-container-bg{
+    color: var(--color-black);
+    padding: 1.5rem;
+    background: var(--color-white);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 15px;
+}
+
+.educ-title{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.educ-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-dark);
+}
