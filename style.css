@@ -117,10 +117,7 @@ img{
     display: block;
 }
 
-.img1{
-    width: 500px;
-    height: 500px;
-    display: block;
+.icon2{
     border-radius: 50%;
 }
 
@@ -252,7 +249,6 @@ header{
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
     color: var(--color-white);
-    margin-bottom: 50px;
 }
 
 .educ-container{
@@ -317,4 +313,23 @@ header{
     font-size: 16px;
     line-height: 1.5;
     color: var(--color-dark);
+}
+
+/* Contact */
+.contact-container{
+    max-width: 35rem;
+    border: 1px solid var(--color-dark-navy);
+    padding: 24px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 10vw;
+}
+
+.email, .phone{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
