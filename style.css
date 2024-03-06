@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --color-black: #353535;
+    --color-dark: #555555;
+    --color-white: #ffffff;
+    --color-navy: #0d2c6e;
+    --color-light-blue: #69aaff;
+    --color-dark-navy: rgb(0, 25, 63);
+
+    --transition: 0.4 ease;
+}
+
+h1,h2,h3,h4.h5{
+    line-height: 120%;
+}
+
+h1{
+    font-size: 39px;
+    color: var(--color-black);
+}
+
+h2{
+    font-size: 28px;
+    color: var(--color-navy);
+}
+
+h3{
+    font-size: 26px;
+    color: var(--color-black);
+}
+h4{
+    font-size: 19px;
+    color: var(--color-black);
+}
+h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+p{
+    font-size: 17px;
+    line-height: 140%;
+    color: var(--color-dark-navy);
+}
+.heading-p{
+    padding-top: 9rem;
+    text-align: center;
+}
+
+a{
+    font-size: 24px;
+    color: var(--color-black);
+    text-decoration-color: var(--color-white);
+    transition: var(--transition);
+}
+
+a:hover{
+    color: var(--color-navy);
+    text-decoration-color: var(--color-dark-navy);
+    text-underline-offset: 1rem;
+    text-decoration: underline;
+}
+
+.btn{
+    display: inline-block;
+    width: fit-content;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: var(--color-navy);
+    border: 1px solid var(--color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 17px;
+    transition: var(--transition);
+    text-decoration: none !important;
+}
+
+.btn:hover{
+    background-color: var(--color-navy);
+    color: var(--color-white);
+}
+
+.btn-dark{
+    color: white;
+    background: var(--color-dark-navy);
+    text-decoration: none !important;
+}
+
+.btn-dark:hover{
+    background: var(--color-navy);
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.img1{
+    width: 500px;
+    height: 500px;
+    display: block;
+    border-radius: 50%;
+}
+
+.icon1{
+    width: 32px;
+    height: max-content;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 90%;
+}
+
+/* navigation */
+
+nav{
+    height: 8rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--color-dark-navy) !important;
+    text-decoration: none !important;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Header */
+
+header{
+    padding-top: 14rem;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.header-right{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.header-right p{
+    color: var(--color-dark-navy);
+}
+
+.header-right h2{
+    margin-top: .4rem;
+}
+
+.header-right .header-action-aria{
+    justify-content: center;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.header-left{
+    width: 50%;
+}
+
+.header-social{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+/* About */
+.about-container{
+    display: grid;
+    grid-template-columns: 38% auto;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-left{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.basic-edu{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.edu-box{
+    padding: 24px;
+    text-align: center;
+    border: 1px solid var(--color-black);
+    border-radius: 30px;
+    width: 100%;
+}
+
+.edu-box img{
+    margin: auto;
+}
